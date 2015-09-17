@@ -1,0 +1,22 @@
+{
+  "name": "claytest-johann",
+  "version": "0.0.0",
+  "authors": [
+    "urzolaj <johann.gz@gmail.com>"
+  ],
+  "description": "Front End Dependencies for Application Test",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}

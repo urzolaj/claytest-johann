@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "name": "Pauline",
+      "id": "beelen1",
+      "password": "674389",
+      "doors": [
+        {
+          "name": "Tunnel",
+          "id": "0",
+          "propertyId": "000000"
+        },
+        {
+          "name": "Door",
+          "id": "1",
+          "propertyId": "000000"
+        }
+      ]
+    },
+    {
+      "name": "Johann",
+      "id": "urzolaj",
+      "password": "123456",
+      "doors": [
+        {
+          "name": "Door",
+          "id": "1",
+          "propertyId": "000000"
+        }
+      ]
+    }
+  ]
+}

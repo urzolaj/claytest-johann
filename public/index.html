@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <title>Door Widget - Johann Garrido</title>
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link href='http://fonts.googleapis.com/css?family=Exo:200,300,400' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body class="table">
+	<div id="container" class="cell">
+		<div id="access-container" class="section wrapper">
+			<div class="loader">
+				<div class="spinner">Loading...</div>
+				<div class="inner">
+					<div id="locker-form" class="form">
+						<h1><img class="logo" src="images/clay.png" alt="Clay Access"></h1>
+						<input type="text" placeholder="Username" name="username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'" autocomplete="off">
+						<input type="password" placeholder="Tag Password" name="password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tag Password'" autocomplete="off">
+					</div>
+					<div id="response" class="table">
+						<div class="cell"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="/scripts/jquery-1.11.3.min.js"></script>
+	<script src="/bower_components/underscore/underscore-min.js"></script>
+	<script src="/scripts/main.js"></script>
+</body>
+</html>
